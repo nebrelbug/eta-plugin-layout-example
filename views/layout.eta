@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Page about Eta</title>
+  </head>
+  <body>
+    <h1>Eta Rendered Page</h1>
+    <div>
+      <p>
+        Here's the content:<br />
+        ===========================================
+      </p>
+      <div style="background:green;">
+        <%~it.content%>
+      </div>
+      <p>
+        ===========================================
+      </p>
+    </div>
+    <%~E.includeFile('./footer') %>
+  </body>
+</html>

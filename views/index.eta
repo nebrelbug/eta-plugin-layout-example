@@ -1,0 +1,5 @@
+<% @layout("./layout") %>
+
+<h2>This page was rendered with Eta</h2>
+
+My favorite template engine is <%= it.favorite %>
